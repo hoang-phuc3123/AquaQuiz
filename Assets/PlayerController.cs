@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
+    public LayerMask layerMask;
 
     private enum Direction
     {
