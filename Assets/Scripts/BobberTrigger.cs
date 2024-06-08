@@ -8,7 +8,7 @@ public class BobberTrigger : MonoBehaviour
     {
         Debug.Log("Bobber collided with: " + other.name);
 
-        if (other.gameObject.name == "Ground")
+        if (other.gameObject.name == "GroundPoly")
         {
       
 
