@@ -74,10 +74,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!isFishing && !isFishingRodThrown)
         {
-            if (compositeToggle != null)
-            {
-                compositeToggle.DisableComposite();
-            }
+            //if (compositeToggle != null)
+            //{
+            //    compositeToggle.DisableComposite();
+            //}
             animator.ResetTrigger("Reeling");
             animator.SetTrigger("Fishing");
             animator.speed = 1;
@@ -136,10 +136,10 @@ public class PlayerController : MonoBehaviour
             Destroy(currentBobber);
             currentBobber = null;
         }
-        if (compositeToggle != null)
-        {
-            compositeToggle.EnableComposite();
-        }
+        //if (compositeToggle != null)
+        //{
+        //    compositeToggle.EnableComposite();
+        //}
     }
 
     private IEnumerator WaitForFishToBite()
