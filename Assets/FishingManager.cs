@@ -20,7 +20,7 @@ public class FishingManager : MonoBehaviour
 
     private Question currentQuestion;
     private float progress; // Start at 30%
-    private float timeDecreaseRate = 5f; // Adjust how fast it decreases
+    private float timeDecreaseRate = 5f; // Adjust how fast it decrease
     private bool isFishing = false;
 
     // Start is called before the first frame update
@@ -37,8 +37,6 @@ public class FishingManager : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
-        // ... (rest of your Awake() logic)
     }
 
     private IEnumerator FishingMinigameLoop()

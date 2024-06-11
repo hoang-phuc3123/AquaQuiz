@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1930109843974030533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3556979868495555778, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_Name
+      value: QuestionManager Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 492.31458
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 181.08963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.63404894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266501210932168457, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].questionText
+      value: What is the name of the tool used to catch fish with a line and hook?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].questionText
+      value: Where do freshwater fish live?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].correctAnswerIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].correctAnswerIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].answers.Array.data[0]
+      value: Net
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].answers.Array.data[1]
+      value: Trap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].answers.Array.data[2]
+      value: Spear
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[1].answers.Array.data[3]
+      value: Rob
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].answers.Array.data[0]
+      value: Oceans
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].answers.Array.data[1]
+      value: Rivers and lakes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].answers.Array.data[2]
+      value: Deserts
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547699445277127630, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
+      propertyPath: questions.Array.data[2].answers.Array.data[3]
+      value: Sky
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f9480da8cae9cb44a5697c63ce3bc05, type: 3}
