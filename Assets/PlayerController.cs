@@ -170,6 +170,11 @@ public class PlayerController : MonoBehaviour
     {
         playerInput.actions.FindActionMap("InGame").Enable();
     }
+
+    public void DisableInput()
+    {
+        playerInput.actions.FindActionMap("InGame").Disable();
+    }
     private void SpawnBobber()
     {
         Vector3 bobberPosition = transform.position;

@@ -10,6 +10,9 @@ public class NPC : MonoBehaviour
     public string[] dialogue;
     private int index;
 
+    [SerializeField]
+    public PlayerController playerController;
+
     public GameObject continueButton;
     public float wordSpeed;
     public bool playerIsClose;
@@ -18,7 +21,7 @@ public class NPC : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            Debug.Log("123");
+            playerController.DisableInput();
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -41,6 +44,7 @@ public class NPC : MonoBehaviour
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
+        playerController.EnableInput();
     }
 
     IEnumerator Typing()
