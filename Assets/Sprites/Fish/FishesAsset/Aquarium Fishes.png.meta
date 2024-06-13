@@ -1,0 +1,4021 @@
+fileFormatVersion: 2
+guid: cf0477bc28c3c674790075a00b9044fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquarium Fishes_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdaaf9e94449944b87d60c4bca19076
+      internalID: -1124160664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 287
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c41003599f84449c1b018d3d677a4
+      internalID: 626842817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 285
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71fa0802d0998a4d8a13d6ef2c916dd
+      internalID: 2112579087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 287
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d52eb3ef11996428b9068aac45e8b3
+      internalID: -147623235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 285
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb4e6907b4b17947a55c35785431ab3
+      internalID: -2058426224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 287
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f59b1b741dccf42a15c870e399ceec
+      internalID: 199758594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 286
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b994a74cb550d9746af8db5818437b0b
+      internalID: 1230521323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 285
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e55ebed2c11e574ca4be3a836222c97
+      internalID: 1571776499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb04b5a2ce8ada43ad8ec02ac902a13
+      internalID: -332289859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 286
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fb351ba8c4bf84797a898f0723e361
+      internalID: -74270568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 286
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208b848eee0f46d43a2b3aa8c678463f
+      internalID: -11823881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 286
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3001fc631a8341afaafb1dd3e0490
+      internalID: -440209252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 286
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8b2fa3abc492c43b71d630f63c40dd
+      internalID: 1446585416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 287
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eca260203acc24a9cef9729ca4300d
+      internalID: 1061907366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 286
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e717d1f53ce14dbae015d217eafb6
+      internalID: 1515839607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 286
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933a1dabd552914ebc46322a99b2164
+      internalID: 1313069762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 288
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c57ad734cab134f9513f34f3599b01
+      internalID: -663706665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 290
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b2d4c8c21fc044c9802b18f3691fde
+      internalID: -604443408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1603192e21e91f40ab3fe47e18e2144
+      internalID: 744656337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_19
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 288
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdd3dd7b307ded40922f4d472ce956d
+      internalID: -1297373069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 261
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69ee77581afb1b44bdf9aa2e2a97aee
+      internalID: -175033420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a44719c1a55e0418a23fbd080a296a
+      internalID: -2050937205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 261
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8c549a7e8ca464e96852c690d72e56
+      internalID: 829880162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a37e57d76351c54484bf84a3af708c4
+      internalID: -1017431711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_24
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2409b55186f92cb4c8a875555d322030
+      internalID: -401640805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 261
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0925088da00a1ff478e6e29e229d36d2
+      internalID: -559198285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 260
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2483019da49c4d438103b74fc88af2b
+      internalID: -1331543543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 259
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79de3ab1e222a79449f3a70fa33ba807
+      internalID: 1901482475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a018a31b074bc43b4fc686450c613c
+      internalID: -1518619630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a39c6f95e80ac3409bab16361a516fc
+      internalID: 1922971656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd5dfebe85494d4084af6706e5ecb60
+      internalID: -558007862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_31
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e1b207e8a233418e04d11abbbcdb2
+      internalID: 597514852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_32
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf28d70a90bd3cd47b6d67577e88883b
+      internalID: 1104241170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_33
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 261
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e84fe86f4132b41901dd9556b0649b
+      internalID: -1935696569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_34
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 260
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827612455a24c9d4f96692059b708807
+      internalID: -1418439833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_35
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 260
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e0128500aeb424f90c289fb3b1683d
+      internalID: 2116735905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7799972a2965610479a646127cb78b63
+      internalID: 1147095533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_37
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373c99c633313bb45b65d9c3fe68fd7f
+      internalID: 2062339650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_38
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 260
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8ca53523f03b34c886ea8ce2986b07
+      internalID: 1151175862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 242
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe1c8f425780a43b4f12fe50fc2104
+      internalID: -2059558151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_40
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 242
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab59d495ff3914479824eb0d79d3ea3
+      internalID: -1981768143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 238
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f767744c8c939459f21021e3a8ea1b
+      internalID: 589833560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 241
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3c98e9a7b446444bd0d48244a5dede
+      internalID: 1926656989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_43
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 237
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723eae1831cc8d742a2e1f6e9c4417e7
+      internalID: 1122991147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 239
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f23ed0ad0a27143ab7ac67f1e38634
+      internalID: -172905868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 239
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbecb43abcae2b449954c986fc4feec
+      internalID: -563076198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 242
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884970ce47e27514686d19b4a9b0e6d6
+      internalID: 787250424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_47
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 238
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca0ae7dfe640b3459ba9ece51b0c172
+      internalID: -2021978409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_48
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 237
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef7c8fbe9d0fa246ac3e4294baad018
+      internalID: 329845925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_49
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 237
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82a21ae9b7397442b961261c2fcb7e9
+      internalID: 1128441669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_50
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 240
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2b9ae4e92a3ac4f9bdac7db9687ade
+      internalID: -142360723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_51
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 238
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c5d94c030e54f499a4325594afdb7f
+      internalID: -1396353324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_52
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 240
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe7a360953eb34d9d95c9d5b25c283
+      internalID: -1309588796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_53
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 238
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107da037877d4d248bf243d367093b6e
+      internalID: 938594883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_54
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 243
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d34a3db1f493942ae94fa366a27670
+      internalID: 1707914039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_55
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 236
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39922bd8aa35b4283d353d24f6bb2d
+      internalID: 1334235822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_56
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 243
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7361a3c1e72684a8d178638e33914b
+      internalID: -353761228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_57
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857cbd00ef8db39418d6c5c31fd3a5f4
+      internalID: 475085938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_58
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4426fa2e5225f5b499f2626613f3b5fa
+      internalID: -653596667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 211
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c1210a05923244f9398d42beac6b5f
+      internalID: -1112822028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_60
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 214
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca30d2582fae4cd4c9156d8507793e95
+      internalID: -178576110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_61
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e586950d8d68b5c49b9b5d7b2753efc6
+      internalID: -1723724607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_62
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 213
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c82961f9b19682439f316a2901477dc
+      internalID: 478127799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_63
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 210
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1169b60fed98f24587f219bb22e8d71
+      internalID: 309939230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_64
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad069790862e5f940b8e7ec0ad245350
+      internalID: 1408493632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8dd92f5da62a9438660399beb0b62a
+      internalID: 1032233188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_66
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 212
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d822a564dd7af6408c6894e72775f91
+      internalID: -159336784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_67
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 214
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90641f89fb11fd3469274bc504d168d2
+      internalID: -672150268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_68
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 211
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915b4d11b04394549bb74d2c627b94f5
+      internalID: -1786483419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_69
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88e1a4ee3093c147b509adb82644353
+      internalID: -354152598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_70
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdce5e39b553b0c4b80b4516bd729984
+      internalID: -2012255269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a5f646d9bfae44bf75620109a031d
+      internalID: 1023219580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_72
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5062844743d5b74596924adb5a7b3f6
+      internalID: -1495953530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 212
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392931b8bd3caad47bbdfba0c57328f3
+      internalID: -703351853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_74
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c11c488322117a44b5ed0ac4e677327
+      internalID: 483530267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 191
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335c2500f37dc8641b4bfbf1e6b67ebe
+      internalID: 1193610379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_76
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 191
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ea69d5092b581468e5d290d063ae33
+      internalID: 1662943760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_77
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 192
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b35a892d010249891212c9d12330b
+      internalID: 593600183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_78
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 190
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76ba83eea9df5142a344e0b9a898d67
+      internalID: 1296517035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_79
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 191
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235f03c799dccec47a6a0ce39a812bc7
+      internalID: 1600812089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_80
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 190
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334aec5839394d84ba947c98ac5d8b9c
+      internalID: 382301401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_81
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 191
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b5e009531c79f458c04430aee459ff
+      internalID: -525873662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_82
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 192
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9f8664f168d3c48878a013fe2cf134
+      internalID: -485162129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_83
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 191
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9fe52ef90611459de2dde9371766e
+      internalID: 2124776763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 190
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4293031df369f46ae48f144ebea196
+      internalID: -1012145029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_85
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 191
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7ae22cd43568542b9e762e7c8fa866
+      internalID: -810107575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_86
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 190
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f6289394fa14a47a993f54c699c597
+      internalID: -916177608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_87
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 189
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3aca60cf1956f439a4d93fd5bf7056
+      internalID: -1126382350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_88
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 189
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e743b8cd23561794f8921cf081b2cf14
+      internalID: 1018872023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_89
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 189
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aea73e21fa0a04fbac194bb049fbaf
+      internalID: -716613370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_90
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 190
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db443e12e7bdd84b9dd303047d2f19a
+      internalID: -1380234775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_91
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 164
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4da074d18d7ee4ab400fd63c8a75c5
+      internalID: -1053828822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_92
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 163
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d630f13595e2a43a93cf586978169d
+      internalID: -1383239488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_93
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 165
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94096164c4ef59849a3ead63dc58ea40
+      internalID: -182174127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_94
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 163
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7292cd21fa624e8eaaae0e8c550e8
+      internalID: -1156980676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_95
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ce00237a875741ad0f794c6173573
+      internalID: 1677074890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_96
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6c3353199fa254482582862abffd82
+      internalID: 134342851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_97
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8da8f38d82cfb34997e5550239fd443
+      internalID: -484974063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_98
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d337fb9d396ffd47b88fe3b5c41aceb
+      internalID: 1078393897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_99
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cbe4c5e3338704e8797a28e65d0d7d
+      internalID: -1910967853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_100
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da68e98a8619e39469d29e437a300a4a
+      internalID: -2017360040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_101
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 165
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3fac885f8880242882bc8feca3304b
+      internalID: -1530849174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_102
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500ef991ebd00e40a19d5d11767c6cf
+      internalID: -1250827696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_103
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 164
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29c9d0a4154cb4489dfd21c81a7d393
+      internalID: 479727810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_104
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffff2ea3568c5049930f6d2e2bae85f
+      internalID: -1265127093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_105
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a671f3f5d64cd2e41b14b1b8637e1945
+      internalID: -1472178820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_106
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 165
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a34e2e0d8bfab44a0be9f7a184696d
+      internalID: -1345366403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_107
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfa741df6699d544a3bb38c35cce3e9
+      internalID: 1746217315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_108
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 141
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c22752e6e7764ca3edb13036ed497
+      internalID: 471433208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_109
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 139
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d368acc1641443ae4765b1dd53447
+      internalID: -720759367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0993d6dfae3471241b7ade1386572c92
+      internalID: -55660785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 143
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecb111cb9f1afa49beb76bb4f7ccbe9
+      internalID: 1567560695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_112
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482edac948ac5c4084d7c956116d66b
+      internalID: -614822196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_113
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 143
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e56ee21c6e25f4a94e00839687a624
+      internalID: -1234720659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_114
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 143
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f4cf949c617994e9d66ca193a12e02
+      internalID: 191434682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_115
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b5d56e5798da4478c357148e17e9f2
+      internalID: 225488682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_116
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba78a6b6ac669b4082d273703327586
+      internalID: -30574360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_117
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 143
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78d046cc304a88459610ecce573bc57
+      internalID: 1065429626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_118
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 143
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb038df432e9a448eaeb91fee99e60
+      internalID: -2025336159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_119
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 143
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452ec5f10de6cf6429bcfa804af40a8b
+      internalID: -740124230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_120
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 141
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7467c0d931c2c294eb9f04b6e28eb9e3
+      internalID: -760474384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_121
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 143
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbc3ce1323dca64fb58fc3dcf5bd4e6
+      internalID: -1378400789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_122
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb0c16090f3a954d8b5b6efe5561aca
+      internalID: 223595665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_123
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 141
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f698007a1105001408bbe76886809e68
+      internalID: -1000667926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_124
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1545d8831c17545aad8687bd4fb33d
+      internalID: -622401857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_125
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 140
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f554c7bb6fdea4ba139eda9d75a6ff
+      internalID: -1162412180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_126
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 143
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986c7c3b8184006478d7e39a40510a00
+      internalID: -768307406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_127
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7af15851013e24394f81025adfd2f1
+      internalID: 1244330670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_128
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d539a8a5a47c34f83f2607089823df
+      internalID: 690489075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_129
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e7d14b61d69344c8e9743d1868669e
+      internalID: 1380031506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_130
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad6795832868f44ad71e0c3d6c4a34
+      internalID: 1166254738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_131
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 99
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b092e4784c54d4e82180e6f9d6e391
+      internalID: -1772588330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_132
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1709db87d31854ca804f054a106bec
+      internalID: 618639458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_133
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 98
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7898ec1ea1bd0574386047144edffa84
+      internalID: -1553077742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa77127e1276d1b45aa80ed8131ace89
+      internalID: 2006918827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_135
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331cbefa62b91d64a8ca0c1c5bce657d
+      internalID: -234990018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 100
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15cf716b238508428f8765c591c8642
+      internalID: 1130464157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_137
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4021f2fe4fd1ff4780660f6f8d8cf7e
+      internalID: 2005219139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_138
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 93
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41b403d9c67a9d4f8f859eb496657b4
+      internalID: -926912777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_139
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 93
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668f04fb971a8614d84dbeb9f989d5ab
+      internalID: -1459837007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_140
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 94
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f83d1b31402bf42be238fc424f0f02
+      internalID: 923120273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_141
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 92
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e31e808a0fc6964f9440b97fdcedcd4
+      internalID: 99629093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_142
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8da826ffed3540b116c5387e7cb73
+      internalID: -1822926365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_143
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 94
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e4cc71cb8f364dbbd06cfa00397f3
+      internalID: -1101059592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_144
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 69
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f224fac01a53b4c981bcdabbbb3c3f
+      internalID: 784600502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_145
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 70
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592cefd07fcc234b9828484c8bc78d2
+      internalID: 1964105172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_146
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 69
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87680d0fe80c4c24b8fa90f691127a69
+      internalID: 1424880264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd98e2f1efcfe341a2bff013f11ef2d
+      internalID: 1495252859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_148
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 73
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1e36f52126ea4a85a2d1412c8a9c7
+      internalID: 777913024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_149
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 74
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba5963897e0df1468f428a7e626b58c
+      internalID: 560037469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_150
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 74
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30058f8aa72c5f40b8bd0a46221ce1b
+      internalID: -1212726441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_151
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbc27cf5cbc7de4285faecc41f1eb8c
+      internalID: -637454699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_152
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 69
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a8c79667edf92498a45359e78b1969
+      internalID: -1050409271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_153
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e240c36cd38ff439462e98ccf7e0ab
+      internalID: 1403265248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_154
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 69
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3e3282e9482f4985383f0dab6f9e7
+      internalID: 52143641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_155
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ab653f2c153fa478322805367e72a0
+      internalID: -559018036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_156
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e80333b85b1e4a4bbd4a4e35a3b63ca
+      internalID: 2072355108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47154a5498d684f9d3ad9c1e71b260
+      internalID: -760318754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_158
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38363447b0c256d4eaf0dc6dfe3b1cdf
+      internalID: -1458343803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_159
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d517c3a33a274c49a0939e561af4c8c
+      internalID: 1170302776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71421e9cc5d1372429ecd20da068e4cc
+      internalID: -1441999281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_161
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b7a826fbdb72f4d8c03056d880448b
+      internalID: -710745476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_162
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 18
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12a4b74c95ab47498c5f294dfe32ced
+      internalID: 7995755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_163
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd33827ac12de642a7ccf0b1b48d055
+      internalID: -2100419926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_164
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e3b7e2821bc854a81518be392d125d
+      internalID: -1058609599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_165
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3eefadec1b44c42b6b7727e3170dd7
+      internalID: 1575348107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b204e7fc3c17443a0c665fe6cdcef6
+      internalID: 406664496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14901199c01e3204eacfcf8e740b0b50
+      internalID: 1275650880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_168
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03598e46983cb9e4e9d163fe2ac67de5
+      internalID: -101715875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_169
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b923930d922bff4eb9c69b558e3dece
+      internalID: -1823097463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_170
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7288f28972a0a40b27a0a7a2fc7eb3
+      internalID: -1169734344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f30375ea1ef8b479a191fe66409e05
+      internalID: 1017337155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_172
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a2477e344f28147bc044c961b483e8
+      internalID: 357084038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_173
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c98427119687749bdbdd3c3c9045ac
+      internalID: -1948327089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_174
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc8c096e67cce843baff9ad9378cea2
+      internalID: -291058771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_175
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a926753524db42a74f6d7455e0ac9
+      internalID: -544668549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium Fishes_176
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6446f82fb9078f142a25b693a7b7f157
+      internalID: -1620635027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Aquarium Fishes_0: -1124160664
+      Aquarium Fishes_1: 626842817
+      Aquarium Fishes_10: -11823881
+      Aquarium Fishes_100: -2017360040
+      Aquarium Fishes_101: -1530849174
+      Aquarium Fishes_102: -1250827696
+      Aquarium Fishes_103: 479727810
+      Aquarium Fishes_104: -1265127093
+      Aquarium Fishes_105: -1472178820
+      Aquarium Fishes_106: -1345366403
+      Aquarium Fishes_107: 1746217315
+      Aquarium Fishes_108: 471433208
+      Aquarium Fishes_109: -720759367
+      Aquarium Fishes_11: -440209252
+      Aquarium Fishes_110: -55660785
+      Aquarium Fishes_111: 1567560695
+      Aquarium Fishes_112: -614822196
+      Aquarium Fishes_113: -1234720659
+      Aquarium Fishes_114: 191434682
+      Aquarium Fishes_115: 225488682
+      Aquarium Fishes_116: -30574360
+      Aquarium Fishes_117: 1065429626
+      Aquarium Fishes_118: -2025336159
+      Aquarium Fishes_119: -740124230
+      Aquarium Fishes_12: 1446585416
+      Aquarium Fishes_120: -760474384
+      Aquarium Fishes_121: -1378400789
+      Aquarium Fishes_122: 223595665
+      Aquarium Fishes_123: -1000667926
+      Aquarium Fishes_124: -622401857
+      Aquarium Fishes_125: -1162412180
+      Aquarium Fishes_126: -768307406
+      Aquarium Fishes_127: 1244330670
+      Aquarium Fishes_128: 690489075
+      Aquarium Fishes_129: 1380031506
+      Aquarium Fishes_13: 1061907366
+      Aquarium Fishes_130: 1166254738
+      Aquarium Fishes_131: -1772588330
+      Aquarium Fishes_132: 618639458
+      Aquarium Fishes_133: -1553077742
+      Aquarium Fishes_134: 2006918827
+      Aquarium Fishes_135: -234990018
+      Aquarium Fishes_136: 1130464157
+      Aquarium Fishes_137: 2005219139
+      Aquarium Fishes_138: -926912777
+      Aquarium Fishes_139: -1459837007
+      Aquarium Fishes_14: 1515839607
+      Aquarium Fishes_140: 923120273
+      Aquarium Fishes_141: 99629093
+      Aquarium Fishes_142: -1822926365
+      Aquarium Fishes_143: -1101059592
+      Aquarium Fishes_144: 784600502
+      Aquarium Fishes_145: 1964105172
+      Aquarium Fishes_146: 1424880264
+      Aquarium Fishes_147: 1495252859
+      Aquarium Fishes_148: 777913024
+      Aquarium Fishes_149: 560037469
+      Aquarium Fishes_15: 1313069762
+      Aquarium Fishes_150: -1212726441
+      Aquarium Fishes_151: -637454699
+      Aquarium Fishes_152: -1050409271
+      Aquarium Fishes_153: 1403265248
+      Aquarium Fishes_154: 52143641
+      Aquarium Fishes_155: -559018036
+      Aquarium Fishes_156: 2072355108
+      Aquarium Fishes_157: -760318754
+      Aquarium Fishes_158: -1458343803
+      Aquarium Fishes_159: 1170302776
+      Aquarium Fishes_16: -663706665
+      Aquarium Fishes_160: -1441999281
+      Aquarium Fishes_161: -710745476
+      Aquarium Fishes_162: 7995755
+      Aquarium Fishes_163: -2100419926
+      Aquarium Fishes_164: -1058609599
+      Aquarium Fishes_165: 1575348107
+      Aquarium Fishes_166: 406664496
+      Aquarium Fishes_167: 1275650880
+      Aquarium Fishes_168: -101715875
+      Aquarium Fishes_169: -1823097463
+      Aquarium Fishes_17: -604443408
+      Aquarium Fishes_170: -1169734344
+      Aquarium Fishes_171: 1017337155
+      Aquarium Fishes_172: 357084038
+      Aquarium Fishes_173: -1948327089
+      Aquarium Fishes_174: -291058771
+      Aquarium Fishes_175: -544668549
+      Aquarium Fishes_176: -1620635027
+      Aquarium Fishes_18: 744656337
+      Aquarium Fishes_19: -1297373069
+      Aquarium Fishes_2: 2112579087
+      Aquarium Fishes_20: -175033420
+      Aquarium Fishes_21: -2050937205
+      Aquarium Fishes_22: 829880162
+      Aquarium Fishes_23: -1017431711
+      Aquarium Fishes_24: -401640805
+      Aquarium Fishes_25: -559198285
+      Aquarium Fishes_26: -1331543543
+      Aquarium Fishes_27: 1901482475
+      Aquarium Fishes_28: -1518619630
+      Aquarium Fishes_29: 1922971656
+      Aquarium Fishes_3: -147623235
+      Aquarium Fishes_30: -558007862
+      Aquarium Fishes_31: 597514852
+      Aquarium Fishes_32: 1104241170
+      Aquarium Fishes_33: -1935696569
+      Aquarium Fishes_34: -1418439833
+      Aquarium Fishes_35: 2116735905
+      Aquarium Fishes_36: 1147095533
+      Aquarium Fishes_37: 2062339650
+      Aquarium Fishes_38: 1151175862
+      Aquarium Fishes_39: -2059558151
+      Aquarium Fishes_4: -2058426224
+      Aquarium Fishes_40: -1981768143
+      Aquarium Fishes_41: 589833560
+      Aquarium Fishes_42: 1926656989
+      Aquarium Fishes_43: 1122991147
+      Aquarium Fishes_44: -172905868
+      Aquarium Fishes_45: -563076198
+      Aquarium Fishes_46: 787250424
+      Aquarium Fishes_47: -2021978409
+      Aquarium Fishes_48: 329845925
+      Aquarium Fishes_49: 1128441669
+      Aquarium Fishes_5: 199758594
+      Aquarium Fishes_50: -142360723
+      Aquarium Fishes_51: -1396353324
+      Aquarium Fishes_52: -1309588796
+      Aquarium Fishes_53: 938594883
+      Aquarium Fishes_54: 1707914039
+      Aquarium Fishes_55: 1334235822
+      Aquarium Fishes_56: -353761228
+      Aquarium Fishes_57: 475085938
+      Aquarium Fishes_58: -653596667
+      Aquarium Fishes_59: -1112822028
+      Aquarium Fishes_6: 1230521323
+      Aquarium Fishes_60: -178576110
+      Aquarium Fishes_61: -1723724607
+      Aquarium Fishes_62: 478127799
+      Aquarium Fishes_63: 309939230
+      Aquarium Fishes_64: 1408493632
+      Aquarium Fishes_65: 1032233188
+      Aquarium Fishes_66: -159336784
+      Aquarium Fishes_67: -672150268
+      Aquarium Fishes_68: -1786483419
+      Aquarium Fishes_69: -354152598
+      Aquarium Fishes_7: 1571776499
+      Aquarium Fishes_70: -2012255269
+      Aquarium Fishes_71: 1023219580
+      Aquarium Fishes_72: -1495953530
+      Aquarium Fishes_73: -703351853
+      Aquarium Fishes_74: 483530267
+      Aquarium Fishes_75: 1193610379
+      Aquarium Fishes_76: 1662943760
+      Aquarium Fishes_77: 593600183
+      Aquarium Fishes_78: 1296517035
+      Aquarium Fishes_79: 1600812089
+      Aquarium Fishes_8: -332289859
+      Aquarium Fishes_80: 382301401
+      Aquarium Fishes_81: -525873662
+      Aquarium Fishes_82: -485162129
+      Aquarium Fishes_83: 2124776763
+      Aquarium Fishes_84: -1012145029
+      Aquarium Fishes_85: -810107575
+      Aquarium Fishes_86: -916177608
+      Aquarium Fishes_87: -1126382350
+      Aquarium Fishes_88: 1018872023
+      Aquarium Fishes_89: -716613370
+      Aquarium Fishes_9: -74270568
+      Aquarium Fishes_90: -1380234775
+      Aquarium Fishes_91: -1053828822
+      Aquarium Fishes_92: -1383239488
+      Aquarium Fishes_93: -182174127
+      Aquarium Fishes_94: -1156980676
+      Aquarium Fishes_95: 1677074890
+      Aquarium Fishes_96: 134342851
+      Aquarium Fishes_97: -484974063
+      Aquarium Fishes_98: 1078393897
+      Aquarium Fishes_99: -1910967853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
