@@ -14,8 +14,9 @@ public class FishingManager : MonoBehaviour
     public TMP_Text questionText;
     public Button[] answerButtons;
     public QuestionGenerator questionGenerator;
+    public FishManager fishManager;
+    public FishInfoDisplay fishInfo;
 
-    
     [SerializeField] private PlayerController playerController;
 
     private Question currentQuestion;
@@ -27,6 +28,7 @@ public class FishingManager : MonoBehaviour
     void Start()
     {
         fishingCanvas.enabled = false;
+        //fishInfo.fishInfoCanvas.enabled = false;
     }
 
     // Update is called once per frame
@@ -41,7 +43,6 @@ public class FishingManager : MonoBehaviour
 
     private IEnumerator FishingMinigameLoop()
     {
-        // ... (rest of your loop logic) ...
 
         while (progress > 0 && progress < 100 && isFishing)
         {
@@ -61,8 +62,12 @@ public class FishingManager : MonoBehaviour
         }
         if (isFishing && progress >= 100) // Check isFishing to avoid calling EndFishing twice
         {
-            Debug.Log("You caught a fish!");
-            EndFishing();
+            
+            FishData caughtFish = fishManager.GetRandomFish();
+
+            fishInfo.ShowFishInfo(caughtFish);
+            EndFishingWaitForCanvas();
+            yield return new WaitUntil(() => !fishInfo.fishInfoCanvas.enabled);    
         }
         if (isFishing && progress <= 0)
         {
@@ -139,13 +144,16 @@ public class FishingManager : MonoBehaviour
     // End the fishing minigame
     public void EndFishing()
     {
-        // ... Your existing code ...
-
-        // Disable the fishing canvas
         isFishing = false;
         fishingCanvas.enabled = false;
-        playerController.EnableInput();
-        playerController.CancelFishing();
+        //playerController.EnableInput();
+        playerController.CancelFishing(false);
+    }
+    public void EndFishingWaitForCanvas()
+    {
+        isFishing = false;
+        fishingCanvas.enabled = false;
+        playerController.CancelFishing(true);
     }
     
 }

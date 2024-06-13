@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d35329219989d4e90580c7792b2487, type: 3}
+  m_Name: Bream
+  m_EditorClassIdentifier: 
+  fishName: Bream
+  rarity: 2
+  description: The term sea bream is sometimes used for fish of the family Sparidae
+    including Acanthopagrus (Australia), Argyrops, gilt-head bream Sparus aurata
+    (orata in Italy, dorada in Spain), black seabream Spondyliosoma cantharus and
+    red seabream Pagrus or Pagellus species; or pomfrets (family Bramidae).
+  fishSprite: {fileID: -1017431711, guid: cf0477bc28c3c674790075a00b9044fc, type: 3}
+  fishImage: {fileID: 2800000, guid: f75e36f168ac0bd45960a98c338055b9, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d35329219989d4e90580c7792b2487, type: 3}
+  m_Name: Tuna
+  m_EditorClassIdentifier: 
+  fishName: Tuna
+  rarity: 1
+  description: 'A tuna (pl.: tunas or tuna) is a saltwater fish that belongs to the
+    tribe Thunnini, a subgrouping of the Scombridae (mackerel) family. The Thunnini
+    comprise 15 species across five genera,[2] the sizes of which vary greatly, ranging
+    from the bullet tuna (max length: 50 cm or 1.6 ft, weight: 1.8 kg or 4 lb) up
+    to the Atlantic bluefin tuna (max length: 4.6 m or 15 ft, weight: 684 kg or 1,508
+    lb), which averages 2 m (6.6 ft) and is believed to live up to 50 years.'
+  fishSprite: {fileID: -2050937205, guid: cf0477bc28c3c674790075a00b9044fc, type: 3}
+  fishImage: {fileID: 2800000, guid: c188ee9cff9441549911fe473876a839, type: 3}

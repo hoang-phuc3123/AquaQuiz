@@ -70,6 +70,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Test()
+    {
+        Debug.Log("Test");
+    }
+
     private void OnFishing()
     {
         if (!isFishing && !isFishingRodThrown)
@@ -87,7 +92,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (isFishingRodThrown)
         {
-            CancelFishing();
+            CancelFishing(false);
             fishingManager.EndFishing();
         }
     }
@@ -116,11 +121,11 @@ public class PlayerController : MonoBehaviour
         else
         {
             Debug.Log("Hit land! Reeling in...");
-            CancelFishing();
+            CancelFishing(false);
         }
     }
 
-    private IEnumerator HandleReelingAnimation()
+    private IEnumerator HandleReelingAnimation(bool waitInfo)
     {
         animator.ResetTrigger("Fishing");
         animator.SetTrigger("Reeling");
@@ -129,18 +134,17 @@ public class PlayerController : MonoBehaviour
 
         armSprite.enabled = false;
         robSprite.enabled = false;
-        
-        EnableInput();
+        if (!waitInfo)
+        {
+            EnableInput();
+        }
         if (currentBobber != null)
         {
             Destroy(currentBobber);
             currentBobber = null;
         }
-        //if (compositeToggle != null)
-        //{
-        //    compositeToggle.EnableComposite();
-        //}
     }
+
 
     private IEnumerator WaitForFishToBite()
     {
@@ -156,23 +160,26 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void CancelFishing()
+    public void CancelFishing(bool waitInfo)
     {
         isFishing = false;
         isFishingRodThrown = false;
         StopAllCoroutines();
         movement = Vector2.zero;
         animator.SetBool("IsWalking", false);
-        StartCoroutine(HandleReelingAnimation());
+        StartCoroutine(HandleReelingAnimation(waitInfo));
     }
 
     public void EnableInput()
     {
+        Debug.Log("Enable");
         playerInput.actions.FindActionMap("InGame").Enable();
     }
 
     public void DisableInput()
     {
+        Debug.Log("Disable");
+
         playerInput.actions.FindActionMap("InGame").Disable();
     }
     private void SpawnBobber()

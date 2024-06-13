@@ -12,7 +12,7 @@ public class BobberScript : MonoBehaviour
         if (other.TryGetComponent<CompositeCollider2D>(out var compositeCollider) &&
             other.gameObject.CompareTag("Ground"))
         {
-            playerController.CancelFishing();
+            playerController.CancelFishing(false);
         }
     }
 

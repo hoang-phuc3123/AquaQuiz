@@ -6,8 +6,7 @@ public class BobberTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Bobber collided with: " + other.name);
-
+       
         if (other.gameObject.name == "GroundPoly")
         {
       
@@ -15,7 +14,7 @@ public class BobberTrigger : MonoBehaviour
             PlayerController playerController = FindObjectOfType<PlayerController>();
             if (playerController != null)
             {
-                playerController.CancelFishing();
+                playerController.CancelFishing(false);
             }
         }
     }
