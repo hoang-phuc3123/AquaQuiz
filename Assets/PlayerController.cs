@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private SpriteRenderer armSprite;
     [SerializeField] private SpriteRenderer robSprite;
     [SerializeField] private GameObject bobberPrefab;
-
+    private FishCollection fishCollection;
     [SerializeField] private FishingManager fishingManager;
 
     [SerializeField] private float bobberOffset = 1.5f;
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         armSprite = transform.Find("Player_289").GetComponent<SpriteRenderer>();
         robSprite = armSprite.transform.Find("Tools_125").GetComponent<SpriteRenderer>();
-        
+        fishCollection = FindObjectOfType<FishCollection>();
         playerInput = GetComponent<PlayerInput>();
         compositeToggle = groundObject.GetComponent<CompositeToggle>();
     }
@@ -95,6 +95,12 @@ public class PlayerController : MonoBehaviour
             CancelFishing(false);
             fishingManager.EndFishing();
         }
+    }
+    private void OnOpen()
+    {
+        // Toggle the enabled state of the Canvas
+        fishCollection.fishCollectionUI.transform.parent.GetComponent<Canvas>().enabled = true;
+        DisableInput();
     }
 
     private IEnumerator ThrowFishingRod()
@@ -172,13 +178,11 @@ public class PlayerController : MonoBehaviour
 
     public void EnableInput()
     {
-        Debug.Log("Enable");
         playerInput.actions.FindActionMap("InGame").Enable();
     }
 
     public void DisableInput()
     {
-        Debug.Log("Disable");
 
         playerInput.actions.FindActionMap("InGame").Disable();
     }

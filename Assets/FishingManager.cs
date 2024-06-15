@@ -16,6 +16,7 @@ public class FishingManager : MonoBehaviour
     public QuestionGenerator questionGenerator;
     public FishManager fishManager;
     public FishInfoDisplay fishInfo;
+    public FishCollection fishCollection;
 
     [SerializeField] private PlayerController playerController;
 
@@ -29,6 +30,12 @@ public class FishingManager : MonoBehaviour
     {
         fishingCanvas.enabled = false;
         //fishInfo.fishInfoCanvas.enabled = false;
+        fishCollection = FindObjectOfType<FishCollection>();
+
+        if (fishCollection == null)
+        {
+            Debug.LogError("FishCollection not found in the scene!");
+        }
     }
 
     // Update is called once per frame
@@ -36,10 +43,10 @@ public class FishingManager : MonoBehaviour
     {
         
     }
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    //private void Awake()
+    //{
+    //    DontDestroyOnLoad(gameObject);
+    //}
 
     private IEnumerator FishingMinigameLoop()
     {
@@ -64,10 +71,11 @@ public class FishingManager : MonoBehaviour
         {
             
             FishData caughtFish = fishManager.GetRandomFish();
-
+            FishCollection.Instance.MarkFishAsCaught(caughtFish);
             fishInfo.ShowFishInfo(caughtFish);
             EndFishingWaitForCanvas();
-            yield return new WaitUntil(() => !fishInfo.fishInfoCanvas.enabled);    
+            yield return new WaitUntil(() => !fishInfo.fishInfoCanvas.enabled);
+            playerController.EnableInput();
         }
         if (isFishing && progress <= 0)
         {
