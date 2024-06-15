@@ -23,10 +23,10 @@ public class FishInfoDisplay : MonoBehaviour
         fishDescriptionText.text = fish.description;
         playerController.DisableInput();
     }
+   
     public void CloseFishInfo()
     {
         fishInfoCanvas.enabled = false;
-        playerController.EnableInput();
     }
     public void EnableFishInfoCanvas()
     {
