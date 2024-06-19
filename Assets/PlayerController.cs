@@ -36,6 +36,14 @@ public class PlayerController : MonoBehaviour
         West
     }
 
+    void Awake()
+    {
+        if (PlayerPrefs.HasKey("PlayerX") && PlayerPrefs.HasKey("PlayerY") && PlayerPrefs.HasKey("PlayerZ"))
+        {
+            gameObject.transform.position = new Vector3(PlayerPrefs.GetFloat("PlayerX"), PlayerPrefs.GetFloat("PlayerY"), PlayerPrefs.GetFloat("PlayerZ"));
+        }
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -88,7 +96,7 @@ public class PlayerController : MonoBehaviour
             animator.speed = 1;
             movement = Vector2.zero;
             StartCoroutine(ThrowFishingRod());
-            
+
         }
         else if (isFishingRodThrown)
         {
@@ -109,7 +117,7 @@ public class PlayerController : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f, layerMask);
 
-        
+
 
         if (hit.collider == null || !hit.collider.gameObject.name.Equals("Ground")) // Check if NOT colliding with Decore (4)
         {
