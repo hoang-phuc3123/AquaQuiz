@@ -16,6 +16,8 @@ public class ScreenChangeScript : MonoBehaviour
         if (other.CompareTag("Player"))
         {   
             playerStorage.initialValue = playerPosition;
+            // Set flag to not use saved position
+            PlayerPrefs.SetInt("UseSavedPosition", 0);
             LoadLoadingScene();
         }
     }

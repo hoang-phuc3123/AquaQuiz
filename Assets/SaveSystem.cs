@@ -1,6 +1,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class SaveSystem : MonoBehaviour
 {
@@ -32,10 +33,22 @@ public class SaveSystem : MonoBehaviour
 
     public void LoadData()
     {
+        // Set flag to use saved position
+        PlayerPrefs.SetInt("UseSavedPosition", 1);
+
         int currentScene = PlayerPrefs.GetInt("CurrentScene");
-        SceneManager.LoadScene(currentScene);
+        StartCoroutine(LoadSceneAndSetPosition(currentScene));
+    }
+
+    private IEnumerator LoadSceneAndSetPosition(int sceneIndex)
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
         inputField.text = PlayerPrefs.GetString("Input");
-        // Set the player position to the saved position
     }
 
     public void DeleteData()
