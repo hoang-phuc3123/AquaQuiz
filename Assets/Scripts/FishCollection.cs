@@ -18,6 +18,7 @@ public class FishCollection : MonoBehaviour
     {
         //fishCollectionUI.transform.parent.GetComponent<Canvas>().enabled = false;
         InitializeFishCollection();
+        LoadFishData();  // Load fish data at start
     }
 
     // Update is called once per frame
@@ -119,4 +120,67 @@ public class FishCollection : MonoBehaviour
             fishCaughtStatus[fishData] = true;
         }
     }
+
+    // Save fish data to PlayerPrefs
+    public void SaveFishData()
+    {
+        List<FishDataWrapper> fishDataList = new List<FishDataWrapper>();
+
+        foreach (var kvp in fishCaughtStatus)
+        {
+            if (kvp.Value) // Only save if the fish is caught
+            {
+                FishDataWrapper wrapper = new FishDataWrapper
+                {
+                    fishData = kvp.Key,
+                    isCaught = kvp.Value
+                };
+                fishDataList.Add(wrapper);
+            }
+        }
+
+        string json = JsonUtility.ToJson(new FishDataWrapperList(fishDataList));
+        PlayerPrefs.SetString("FishCaughtStatus", json);
+        PlayerPrefs.Save();
+    }
+
+    // Load fish data from PlayerPrefs
+    public void LoadFishData()
+    {
+        if (PlayerPrefs.HasKey("FishCaughtStatus"))
+        {
+            string json = PlayerPrefs.GetString("FishCaughtStatus");
+            FishDataWrapperList wrapperList = JsonUtility.FromJson<FishDataWrapperList>(json);
+            fishCaughtStatus.Clear();
+
+            foreach (var wrapper in wrapperList.fishDataList)
+            {
+                fishCaughtStatus[wrapper.fishData] = wrapper.isCaught;
+
+                if (wrapper.isCaught)
+                {
+                    fishCollectionObjects[wrapper.fishData].GetComponent<FishCollectionItem>().RevealFish(wrapper.fishData);
+                }
+            }
+        }
+    }
 }
+
+[System.Serializable]
+public class FishDataWrapper
+{
+    public FishData fishData;
+    public bool isCaught;
+}
+
+[System.Serializable]
+public class FishDataWrapperList
+{
+    public List<FishDataWrapper> fishDataList;
+
+    public FishDataWrapperList(List<FishDataWrapper> fishDataList)
+    {
+        this.fishDataList = fishDataList;
+    }
+}
+

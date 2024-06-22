@@ -14,8 +14,9 @@ public class ScreenChangeScript : MonoBehaviour
         // Could use other.GetComponent<Player>() to see if the game object has a Player component
         // Tags work too. Maybe some players have different script components?
         if (other.CompareTag("Player"))
-        {   
-            playerStorage.initialValue = playerPosition;
+        {
+            PlayerPrefs.SetFloat("SceneChangePositionX", playerPosition.x);
+            PlayerPrefs.SetFloat("SceneChangePositionY", playerPosition.y);
             // Set flag to not use saved position
             PlayerPrefs.SetInt("UseSavedPosition", 0);
             LoadLoadingScene();

@@ -22,7 +22,7 @@ public class InitialValue : MonoBehaviour
         else
         {
             // Use initial position from startingPosition
-            transform.position = startingPosition.initialValue;
+            transform.position = new Vector2 (PlayerPrefs.GetFloat("SceneChangePositionX"), PlayerPrefs.GetFloat("SceneChangePositionY"));
         }
     }
 
