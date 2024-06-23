@@ -15,6 +15,11 @@ public class WelcomeScreenScript : MonoBehaviour
 
     public void ExitMenuButton()
     {
+        // Clear the FishCollection data if the instance exists
+        if (FishCollection.Instance != null)
+        {
+            FishCollection.Instance.ClearFishData();
+        }
         SceneManager.LoadScene(0);
     }
 

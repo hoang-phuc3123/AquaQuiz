@@ -164,6 +164,17 @@ public class FishCollection : MonoBehaviour
             }
         }
     }
+
+    public void ClearFishData()
+    {
+        //fishCaughtStatus.Clear();
+        foreach (var fishObject in fishCollectionObjects.Values)
+        {
+            Destroy(fishObject);
+        }
+        //fishCollectionObjects.Clear();
+        PlayerPrefs.DeleteKey("FishCaughtStatus");
+    }
 }
 
 [System.Serializable]
@@ -183,4 +194,6 @@ public class FishDataWrapperList
         this.fishDataList = fishDataList;
     }
 }
+
+
 
