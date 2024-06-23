@@ -8,6 +8,8 @@ public class WelcomeScreenScript : MonoBehaviour
     // Start is called before the first frame update
     public void StartButton()
     {
+        PlayerPrefs.DeleteKey("Input");
+        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(2);
     }
 

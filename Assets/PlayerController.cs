@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask layerMask;
     private PlayerInput playerInput;
     private GameObject currentBobber;
-
+    private bool isPaused = false;
     private enum Direction
     {
         North,
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnMovement(InputValue value)
     {
-        if (!isFishing && !isFishingRodThrown)
+        if (!isFishing && !isFishingRodThrown && !isPaused)
         {
             movement = value.Get<Vector2>();
             if (movement.x != 0 || movement.y != 0)
@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnFishing()
     {
-        if (!isFishing && !isFishingRodThrown)
+        if (!isFishing && !isFishingRodThrown && !isPaused)
         {
             //if (compositeToggle != null)
             //{
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(ThrowFishingRod());
 
         }
-        else if (isFishingRodThrown)
+        else if (isFishingRodThrown && !isPaused)
         {
             CancelFishing(false);
             fishingManager.EndFishing();
@@ -226,9 +226,19 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        if (!isFishing && !isFishingRodThrown)
+        if (!isFishing && !isFishingRodThrown && !isPaused)
         {
             rb.MovePosition(rb.position + movement * MovementSpeed * Time.fixedDeltaTime);
+        }
+    }
+
+    public void SetPaused(bool paused) // Thêm hàm này
+    {
+        isPaused = paused;
+        if (paused)
+        {
+            movement = Vector2.zero;
+            animator.SetBool("IsWalking", false);
         }
     }
 }
