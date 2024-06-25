@@ -29,6 +29,12 @@ public class FishCollectionItem : MonoBehaviour
 
     }
 
+    public void ClearFish(FishData fishData)
+    {
+        fishImage.color = Color.black;   // Restore original sprite colors
+        fishNameText.text = "???";
+    }
+
     public void RevealFish(FishData fishData)
     {
         fishImage.color = Color.white;   // Restore original sprite colors

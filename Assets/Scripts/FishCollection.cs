@@ -14,7 +14,7 @@ public class FishCollection : MonoBehaviour
     private Dictionary<FishData, GameObject> fishCollectionObjects = new Dictionary<FishData, GameObject>();
     private bool isInitialized = false;
 
-    void Start()
+     void Start()
     {
         //fishCollectionUI.transform.parent.GetComponent<Canvas>().enabled = false;
         InitializeFishCollection();
@@ -167,13 +167,13 @@ public class FishCollection : MonoBehaviour
 
     public void ClearFishData()
     {
-        //fishCaughtStatus.Clear();
-        foreach (var fishObject in fishCollectionObjects.Values)
+
+        foreach (FishData fishData in fishDataList)
         {
-            Destroy(fishObject);
+            //Debug.Log(fishData.fishName + " initialized");
+            fishCollectionObjects[fishData].GetComponent<FishCollectionItem>().ClearFish(fishData);
+            fishCaughtStatus[fishData] = false;
         }
-        //fishCollectionObjects.Clear();
-        PlayerPrefs.DeleteKey("FishCaughtStatus");
     }
 }
 

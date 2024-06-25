@@ -28,14 +28,20 @@ public class SaveSystem : MonoBehaviour
         playerZ = PlayerPrefs.GetFloat("PlayerZ").ToString();
 
         Debug.Log("Player Position: " + playerX + " " + playerY + " " + playerZ);
-
+        if (FishCollection.Instance != null)
+        {
+            FishCollection.Instance.SaveFishData();
+        }
     }
 
     public void LoadData()
     {
         // Set flag to use saved position
         PlayerPrefs.SetInt("UseSavedPosition", 1);
-
+        if (FishCollection.Instance != null)
+        {
+            FishCollection.Instance.LoadFishData();
+        }
         int currentScene = PlayerPrefs.GetInt("CurrentScene");
         StartCoroutine(LoadSceneAndSetPosition(currentScene));
     }
