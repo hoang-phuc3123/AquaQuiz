@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sardine
   m_EditorClassIdentifier: 
   fishName: Sardine
-  rarity: 1
+  rarity: 3
   description: Sardine and pilchard are common names for various species of small,
     oily forage fish in the herring family Clupeidae. The term 'sardine' was first
     used in English during the early 15th century; a somewhat dubious etymology says

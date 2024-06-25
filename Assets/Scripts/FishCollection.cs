@@ -153,13 +153,25 @@ public class FishCollection : MonoBehaviour
             FishDataWrapperList wrapperList = JsonUtility.FromJson<FishDataWrapperList>(json);
             fishCaughtStatus.Clear();
 
+            // Initialize the fishCaughtStatus dictionary to false for all fishData
+            foreach (var fishData in fishDataList)
+            {
+                fishCaughtStatus[fishData] = false;
+            }
+
+            // Load the caught status from the saved data
             foreach (var wrapper in wrapperList.fishDataList)
             {
-                fishCaughtStatus[wrapper.fishData] = wrapper.isCaught;
-
-                if (wrapper.isCaught)
+                var fishData = fishDataList.Find(fish => fish.fishName == wrapper.fishData.fishName);
+                if (fishData != null)
                 {
-                    fishCollectionObjects[wrapper.fishData].GetComponent<FishCollectionItem>().RevealFish(wrapper.fishData);
+                    fishCaughtStatus[fishData] = wrapper.isCaught;
+
+                    if (wrapper.isCaught)
+                    {
+                        // Update the fish collection objects
+                        fishCollectionObjects[fishData].GetComponent<FishCollectionItem>().RevealFish(fishData);
+                    }
                 }
             }
         }
