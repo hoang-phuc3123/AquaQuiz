@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d35329219989d4e90580c7792b2487, type: 3}
+  m_Name: Walleye
+  m_EditorClassIdentifier: 
+  fishName: Walleye
+  rarity: 2
+  description: ' A versatile fish known for its rich, flavorful flesh that ranges
+    from pink to red. Found in both the Atlantic and Pacific Oceans, many species
+    migrate upstream to spawn in freshwater.'
+  fishSprite: {fileID: -1518619630, guid: cf0477bc28c3c674790075a00b9044fc, type: 3}
+  fishImage: {fileID: 2800000, guid: 8d4f92a5eb88ad7408c0cf769717e909, type: 3}

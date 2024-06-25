@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d35329219989d4e90580c7792b2487, type: 3}
+  m_Name: Largemouthbass
+  m_EditorClassIdentifier: 
+  fishName: Largemouth Bass
+  rarity: 2
+  description: A popular freshwater game fish with a large mouth that extends past
+    its eyes. Olive-green with dark blotches, it is prized for its size and fighting
+    ability.
+  fishSprite: {fileID: -401640805, guid: cf0477bc28c3c674790075a00b9044fc, type: 3}
+  fishImage: {fileID: 2800000, guid: f23de569a6c499a4091f0288a665670e, type: 3}

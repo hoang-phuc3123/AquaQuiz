@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   locationName: Beach
   fish:
-  - {fileID: 11400000, guid: 13b5e3898344082488e753459106892c, type: 2}
   - {fileID: 11400000, guid: 82ddd45ad8d5ecb4b92ae621efedb6b6, type: 2}
   - {fileID: 11400000, guid: a8b88485f2b1cf347a9cbb7b2ca8f34c, type: 2}
   - {fileID: 11400000, guid: a95a45c8e7ccdb24cbea0bbd23b64351, type: 2}
